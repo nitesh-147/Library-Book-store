@@ -1,0 +1,16 @@
+.cart{
+    background-color: azure;
+    width:38vw;
+    /* height:400px; */
+    border: 1px solid;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+}

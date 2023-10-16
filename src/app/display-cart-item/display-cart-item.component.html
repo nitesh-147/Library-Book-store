@@ -1,0 +1,14 @@
+<div class="cartItem">
+    <div class="column1">
+        <img [src]="book.image" [alt]="book.title">
+        <h4>{{book.title}}</h4>
+    </div>
+    <div class="column2">
+        <button (click)="updateVal(-1,book)">-</button>
+        <span id="quantity"> {{book.quantity}} </span>
+        <button (click)="updateVal(1,book)">+</button>
+    </div>
+    <div class="column3">
+        <h4>{{book.price.value*book.quantity}}</h4>
+    </div>
+</div>

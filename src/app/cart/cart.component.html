@@ -1,0 +1,11 @@
+<div class="cart">
+    <h2>Your Cart</h2>
+    <h3 *ngIf="cartBooks.length===0">Your Cart Is Empty</h3>
+    <div class="cartItems">
+        <app-display-cart-item *ngFor="let item of cartBooks" [book]="item" [updateTotal]="updateTotal()"></app-display-cart-item>
+    </div>
+    <div *ngIf="cartBooks.length!==0">
+        <h3>Total Amount</h3>
+        <h3>{{total}}</h3>
+    </div>
+</div>

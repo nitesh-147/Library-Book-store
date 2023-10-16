@@ -1,0 +1,17 @@
+.items{
+    width:58vw;
+    border: 1px solid;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2vw;
+}
